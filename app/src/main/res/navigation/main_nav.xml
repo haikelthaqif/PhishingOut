@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dev.smsphishingdetector.fragments.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/linkCheckerFragment"
+        android:name="com.dev.smsphishingdetector.fragments.LinkCheckerFragment"
+        android:label="fragment_link_checker"
+        tools:layout="@layout/fragment_link_checker" >
+        <action
+            android:id="@+id/action_linkCheckerFragment_to_organizationReportsFragment"
+            app:destination="@id/organizationReportsFragment" />
+        <action
+            android:id="@+id/action_linkCheckerFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.dev.smsphishingdetector.fragments.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" >
+        <action
+            android:id="@+id/action_libraryFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_organizationReportsFragment"
+            app:destination="@id/organizationReportsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/academyFragment"
+        android:name="com.dev.smsphishingdetector.fragments.AcademyFragment"
+        android:label="fragment_academy"
+        tools:layout="@layout/fragment_academy" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.dev.smsphishingdetector.fragments.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/organizationReportsFragment"
+        android:name="com.dev.smsphishingdetector.fragments.OrganizationReportsFragment"
+        android:label="fragment_organization_reports"
+        tools:layout="@layout/fragment_organization_reports" >
+        <action
+            android:id="@+id/action_organizationReportsFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+        <action
+            android:id="@+id/action_organizationReportsFragment_to_messageDetailsFragment"
+            app:destination="@id/messageDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageDetailsFragment"
+        android:name="com.dev.smsphishingdetector.fragments.MessageDetailsFragment"
+        android:label="fragment_message_details"
+        tools:layout="@layout/fragment_message_details" >
+        <action
+            android:id="@+id/action_messageDetailsFragment_to_reportFragment"
+            app:destination="@id/reportFragment" />
+    </fragment>
+</navigation>
