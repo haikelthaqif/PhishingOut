@@ -1,4 +1,4 @@
-# # PhishingOut - Combating SMS Phishing in Singapore (Final Year Project)
+# PhishingOut - Combating SMS Phishing in Singapore (Final Year Project)
 
 **PhishingOut** is a community-driven Android app aimed at addressing the pervasive SMS phishing problem in Singapore. This platform provides a robust and intuitive solution for users to verify whether any suspicious SMS messages they receive have malicious intent. By leveraging community participation, PhishingOut creates a collaborative space where members of the public can proactively identify and report potential phishing scams.
 
