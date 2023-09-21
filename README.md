@@ -2,7 +2,7 @@
 
 **PhishingOut** is a community-driven Android app aimed at addressing the pervasive SMS phishing problem in Singapore. This platform provides a robust and intuitive solution for users to verify whether any suspicious SMS messages they receive have malicious intent. By leveraging community participation, PhishingOut creates a collaborative space where members of the public can proactively identify and report potential phishing scams.
 
-
+![PhishingOut Logo](https://github.com/haikelthaqif/PhishingOut-Android-App/blob/master/miscellaneous/smishingicon.png?raw=true)
 
 ## Motivation
 
@@ -29,23 +29,35 @@ SMS phishing scams involve sending messages that appear to be from banks or othe
 
 ### User Authentication
 - Users are prompted to log in or register a new account to access the app's features.
+**********************************************************************************************************************************************************************************************
 
 ### Home Page
 - Upon successful login, users are redirected to the Home Page, featuring a bottom navigation menu.
-![PhishingOut Screenshots](insert_screenshot_urls_here)
+  
+![Screenshot of the Home Page](https://github.com/haikelthaqif/PhishingOut-Android-App/blob/master/miscellaneous/Home%20Page.png?raw=true)
+**********************************************************************************************************************************************************************************************
 
 ### Weblink Validator
 - Users can input a web link, and the app initiates the validation process, displaying information regarding the link's legitimacy.
+  
+![Screenshot of the Weblink Validator](https://github.com/haikelthaqif/PhishingOut-Android-App/blob/master/miscellaneous/WeblinkValidator.png?raw=true)
+**********************************************************************************************************************************************************************************************
 
 ### Library
 - Allows users to browse a library of known SMS phishing messages, categorized by organizations. Users can select or search for specific organizations and view relevant messages.
 
+![Screenshot of the Library](https://github.com/haikelthaqif/PhishingOut-Android-App/blob/master/miscellaneous/Library.png?raw=true)
+**********************************************************************************************************************************************************************************************
+
 ### Academy
 - Offers educational content to enhance users' awareness of SMS phishing scams and how to identify them.
+
+![Screenshot of the Academy](https://github.com/haikelthaqif/PhishingOut-Android-App/blob/master/miscellaneous/Academy.png?raw=true)
+**********************************************************************************************************************************************************************************************
 
 ### Report
 - Guides users through the process of reporting a new phishing message. Users can enter details such as the claimed organization, sender's number, message contents, and provide a screenshot.
 
-![PhishingOut Screenshots](insert_screenshot_urls_here)
+![Screenshot of the Report](https://github.com/haikelthaqif/PhishingOut-Android-App/blob/master/miscellaneous/Report.png?raw=true)
+**********************************************************************************************************************************************************************************************
 
-**PhishingOut** is a vital initiative to combat SMS phishing scams in Singapore by empowering users with the tools and knowledge to protect themselves from fraudulent activities. This project is part of a Final Year Project, and its ultimate goal is to reduce the number of SMS phishing scam victims and mitigate the harm caused by these malicious activities.
